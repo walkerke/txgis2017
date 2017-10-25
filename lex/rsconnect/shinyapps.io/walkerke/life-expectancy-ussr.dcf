@@ -1,0 +1,12 @@
+name: life-expectancy-ussr
+title: life-expectancy-ussr
+username:
+account: walkerke
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 228395
+bundleId: 1040942
+url: https://walkerke.shinyapps.io/life-expectancy-ussr/
+when: 1508779630.7514
+asMultiple: FALSE
+asStatic: FALSE

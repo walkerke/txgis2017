@@ -1,0 +1,245 @@
+---
+title: "Data visualization and the GIS professional"
+subtitle: ""
+date: "October 25, 2017"
+author: "Kyle Walker, TCU"
+output: 
+  xaringan::moon_reader: 
+    seal: yes
+  
+---
+
+## About me
+
+* Associate Professor of Geography at TCU (since 2012)
+
+* Researcher: spatial demography, cities and suburbs
+
+* Open-source developer: R packages __tigris__, __idbr__, __tidycensus__
+
+* Twitter: @kyle_e_walker; web: http://personal.tcu.edu/kylewalker
+
+---
+
+## Reproduce this presentation!
+
+* Slides and source code are available at https://github.com/walkerke/txgis2017
+
+* Use R to re-create many of the graphics in this presentation
+
+---
+class: center, middle, inverse
+
+# Introduction: GIS and visualization
+
+---
+
+## The "Datasaurus Dozen"
+
+<img src=img/datasaurus.gif style="width:800px">
+
+.footnote[Source: [Justin Matejka, Autodesk Research](https://www.autodeskresearch.com/publications/samestats)]
+
+---
+
+<img src=img/fee.png>
+
+---
+
+## GIS "visualization"
+
+<img src=img/austin_map.jpg style="width:400px">
+
+---
+class: inverse, center, middle
+
+# Should you map spatial data?  
+
+---
+class: inverse, center, middle, education
+background-image: url(img/education.png)
+
+# [Maps!](http://personal.tcu.edu/kylewalker/maps/education/)
+
+---
+
+## Visual variables
+
+<img src="img/vv.png">
+
+.footnote[Source: Yau, _Data Points_]
+
+---
+
+## Color
+
+<img src="https://pbs.twimg.com/media/BaSY069CYAAlHXY.jpg" style="width: 600px">
+
+.footnote[Source: SBNation.com]
+
+---
+
+## Color
+
+<img src="https://am12.akamaized.net/med/cnt/uploads/2012/11/obama-divided-e1352409810458.jpg" style="width: 600px">
+
+.footnote[Source: Mediaite/_Wall Street Journal_]
+---
+
+## Topic: educational attainment
+
+* Research question: how has educational attainment for metropolitan area populations age 25 and up shifted since 2000?
+
+---
+
+## How we might map this
+
+<img src=img/metro_map.png style="width:800px">
+
+---
+
+## Questions to ask when considering a map
+
+* Is there a spatial pattern in the data? 
+
+* Is that spatial pattern meaningful? 
+
+* Are viewers of the map likely to understand its content without significant explanation?  
+
+---
+
+## Provide topical focus
+
+<img src=img/tx_bar.png>
+
+---
+
+## Show relevant data points
+
+<img src=img/slope1.png style="width:500px">
+
+---
+
+## Draw out key information
+
+<img src=img/slope2.png style="width:500px">
+
+---
+
+
+class: inverse, center, middle
+
+# The benefits - and drawbacks - of interactivity
+
+---
+
+## Topic: international demographics
+
+* Question: How did life expectancy shift in former Soviet republics after the fall of the USSR?  
+
+---
+
+## Interactivity considerations
+
+Questions to consider: 
+
+* How will the graphic be used?  
+
+* Will I be presenting the graphic?  
+
+* What expertise can I expect from my audience? 
+
+
+---
+
+## Static graphic
+
+<img src=img/ussr.png style="width: 650px">
+
+---
+
+## Interactive graphic
+
+<iframe src="ussr_py.html" height = "500" width = "800" frameborder = "0" scrolling = "no"></iframe>
+
+---
+
+## Animated graphic
+
+<img src="http://personal.tcu.edu/kylewalker/img/ussr_lex2.gif" style="width: 550px">
+
+---
+
+## Drop-down menus
+
+<iframe src="https://walkerke.shinyapps.io/life-expectancy-ussr/" height="500" width="800" frameborder="0" scrolling="no"></iframe>
+
+---
+
+## Alternative: small multiples
+
+<img src=img/sm.png style="width:650px">
+
+---
+class: inverse, center, middle, education
+background-image: url(img/education.png)
+
+# [Lessons from interactive mapping](http://personal.tcu.edu/kylewalker/maps/education/)
+
+---
+class: inverse, center, middle
+
+# How to learn more
+
+---
+
+## Tools of the trade
+
+Most of the charts in this talk are reproducible - data were acquired, processed, and visualized in R
+
+* Data acquisition: __tigris__, __tidycensus__, __idbr__
+
+* Data wrangling: __tidyverse__
+
+* Data visualization: __ggplot2__ (charts), __tmap__ (maps), __plotly__ (interactive plots), __shiny__ (user interfaces)
+
+---
+
+## Good Twitter follows for visualization principles
+
+* Stephanie Evergreen: @evergreendata
+
+* Andy Kirk: @visualisingdata
+
+* Cole Knaflic: @storywithdata
+
+* Alberto Cairo: @albertocairo
+
+R stuff: Hadley Wickham @hadleywickham
+
+---
+class: center, middle, inverse
+
+# Thank you!
+
+<style>
+
+h1, h2, h3 {
+  color:  #4d1979; 
+}
+
+a {
+  color: #8C489F; 
+}
+
+.inverse {
+  background-color:  #4d1979; 
+
+}
+
+.education a, .education a:visited {
+  color: #ffffff; 
+}
+</style>
+
+
