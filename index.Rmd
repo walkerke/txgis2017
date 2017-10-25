@@ -42,7 +42,7 @@ class: center, middle, inverse
 
 ---
 
-<img src=img/fee.png>
+<img src=img/fee.PNG>
 
 ---
 
@@ -65,7 +65,7 @@ background-image: url(img/education.png)
 
 ## Visual variables
 
-<img src="img/vv.png">
+<img src="img/vv.PNG">
 
 .footnote[Source: Yau, _Data Points_]
 
